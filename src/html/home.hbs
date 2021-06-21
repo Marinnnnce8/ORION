@@ -1,0 +1,11 @@
+{{#> main}}
+	{{#*inline "main"}}
+
+	{{#> ukSection preheading="News & Events" heading="Latest from News and Events" size="xlarge"}}
+		{{#*inline "out"}}
+		{{> nbItems items=items.posts}}
+		{{/inline}}
+	{{/ukSection}}
+
+	{{/inline}}
+{{/main}}

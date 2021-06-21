@@ -1,0 +1,72 @@
+.header {
+	padding: 13px 10px 0 20px;
+
+	>.uk-list {
+		li {
+			color: $grey;
+
+			&:not(:last-of-type) {
+				margin-right: 15px;
+			}
+
+			&:last-of-type {
+				padding: 0 15px;
+			}
+		}
+
+		a {
+			padding: 10px;
+		}
+
+		button {
+			background-color: transparent;
+			border: 0;
+			padding: 0;
+			width: 40px;
+			height: 40px;
+			cursor: pointer;
+			transition: $transition;
+
+			&::before,
+			&::after {
+				display: block;
+				content: '';
+				position: absolute;
+				width: 1px;
+				height: 16px;
+				background-color: $grey;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+
+			&::before {
+				left: -15px;
+			}
+
+			&::after {
+				right: -15px;
+			}
+
+			svg {
+				width: 16px;
+				height: 16px;
+				color: $grey;
+			}
+		}
+	}
+
+	.uk-logo {
+
+		img {
+			width: 228px;
+		}
+	}
+
+	@media (min-width: $breakpoint-small) {
+		padding: 0 50px 20px;
+
+		>.uk-list {
+			padding-right: 10px;
+		}
+	}
+}

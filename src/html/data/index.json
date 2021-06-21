@@ -1,0 +1,208 @@
+{
+	"nb": {
+		"siteName": "ORION - Clean Energy Project",
+		"clientName": "Shetland Islands Council"
+	},
+	"ukContainer": "xlarge",
+	"cta": "Find out more",
+	"menu": [
+		{
+			"name": "about-orion",
+			"title": "About Orion",
+			"children": [
+				{
+					"name": "our-story",
+					"title": "Our Story",
+					"url": "Our Story.html"
+				},
+				{
+					"name": "why-shetland",
+					"title": "Why Shetland?",
+					"url": "why-shetland.html"
+				},
+				{
+					"name": "climate-change",
+					"title": "Climate Change",
+					"url": "climate-change.html"
+				},
+				{
+					"name": "the-team",
+					"title": "The Team",
+					"url": "the-team.html"
+				},
+				{
+					"name": "partners-and-funders",
+					"title": "Partners & Funders",
+					"url": "partners-and-funders.html"
+				}
+			]
+		},
+		{
+			"name": "opportunities",
+			"title": "Opportunities",
+			"children": [
+				{
+					"name": "child",
+					"title": "Child"
+				}
+			]
+		},
+		{
+			"name": "community-benefit",
+			"title": "Community Benefit",
+			"children": [
+				{
+					"name": "child",
+					"title": "Child"
+				}
+			]
+		},
+		{
+			"name": "technologies",
+			"title": "Technologies",
+			"children": [
+				{
+					"name": "child",
+					"title": "Child"
+				}
+			]
+		},
+		{
+			"name": "news-and-events",
+			"title": "News & Events",
+			"url": "news-and-events.html"
+		},
+		{
+			"name": "contact",
+			"title": "Contact",
+			"url": "contact.html"
+		}
+	],
+	"social": [
+		{
+			"name": "facebook",
+			"url": "https://www.facebook.com/"
+		},
+		{
+			"name": "twitter",
+			"url": "https://twitter.com/"
+		}
+	],
+	"legal": [
+		"Terms & Conditions",
+		"Privacy Policy",
+		"Disclaimer"
+	],
+	"items": {
+		"children": [
+			{
+				"title": "About",
+				"url": "#",
+				"getImage": "https://aws.nbcommunication.com/template/img/placeholder-beach.jpg",
+				"getSummary": "To best optimise the page and provide the visitor with useful and informative text, it would be good to have a sentence or two included here."
+			},
+			{
+				"title": "Contact",
+				"url": "#",
+				"getImage": "https://aws.nbcommunication.com/template/img/placeholder-bridge.jpg",
+				"getSummary": "To best optimise the page and provide the visitor with useful and informative text, it would be good to have a sentence or two included here."
+			},
+			{
+				"title": "Styleguide",
+				"url": "styleguide.html",
+				"getImage": "https://aws.nbcommunication.com/template/img/placeholder-city.jpg"
+			}
+		],
+		"posts": [
+			{
+				"title": "Ultricies integer cursus pretium dolor ferme ntum vulputate",
+				"url": "#",
+				"date_pub": "June 05, 2021",
+				"getImage": "https://aws.nbcommunication.com/template/img/placeholder-columns.jpg"
+			},
+			{
+				"title": "Eleifend metus tortor venenatis, mi viverra isi ut suspendisse.",
+				"url": "#",
+				"date_pub": "May 25, 2021",
+				"getImage": "https://aws.nbcommunication.com/template/img/placeholder-skyscrapers.jpg"
+			},
+			{
+				"title": "Vehicula varius enim ut mauris empor massa condiment",
+				"url": "#",
+				"dates": "April 14, 2021",
+				"location": "Somewhere over the rainbow",
+				"getImage": "https://aws.nbcommunication.com/template/img/placeholder-sprinkler.jpg"
+			}
+		],
+		"gallery": [
+			[
+				{
+					"href": "https://aws.nbcommunication.com/template/img/placeholder-columns.jpg",
+					"src": "https://aws.nbcommunication.com/template/img/placeholder-columns.0x768.jpg",
+					"width": "448",
+					"height": "299",
+					"alt": "Ancient columns, a water feature and a blue sky",
+					"caption": "This gallery image has a caption."
+				},
+				{
+					"href": "https://aws.nbcommunication.com/template/img/placeholder-skyscrapers.jpg",
+					"src": "https://aws.nbcommunication.com/template/img/placeholder-skyscrapers.0x768.jpg",
+					"width": "448",
+					"height": "299",
+					"alt": "Skyscrapers in a brightly lit city at dusk"
+				}
+			],
+			[
+				{
+					"href": "https://aws.nbcommunication.com/template/img/placeholder-sprinkler.jpg",
+					"src": "https://aws.nbcommunication.com/template/img/placeholder-sprinkler.0x768.jpg",
+					"width": "334",
+					"height": "223"
+				},
+				{
+					"href": "https://aws.nbcommunication.com/template/img/placeholder-town.jpg",
+					"src": "https://aws.nbcommunication.com/template/img/placeholder-town.0x768.jpg",
+					"width": "335",
+					"height": "224",
+					"caption": "This <em>gallery</em> image also has a <strong>caption</strong> with HTML."
+				},
+				{
+					"href": "https://aws.nbcommunication.com/template/img/placeholder-waterfall.jpg",
+					"src": "https://aws.nbcommunication.com/template/img/placeholder-waterfall.0x768.jpg",
+					"width": "223",
+					"height": "223",
+					"alt": "The caption's testing apostrophe"
+				}
+			]
+		],
+		"slideshow": [
+			{
+				"href": "https://aws.nbcommunication.com/template/img/placeholder-beach.jpg",
+				"src": "https://aws.nbcommunication.com/template/img/placeholder-beach.1200x675.jpg",
+				"width": "1200",
+				"height": "675",
+				"caption": "This slideshow image has a caption."
+			},
+			{
+				"href": "https://aws.nbcommunication.com/template/img/placeholder-bridge.jpg",
+				"src": "https://aws.nbcommunication.com/template/img/placeholder-bridge.1200x675.jpg",
+				"width": "1200",
+				"height": "675"
+			},
+			{
+				"href": "https://aws.nbcommunication.com/template/img/placeholder-castle.jpg",
+				"src": "https://aws.nbcommunication.com/template/img/placeholder-castle.1200x675.jpg",
+				"width": "1200",
+				"height": "675",
+				"alt": "A large castle or fortress on a tree covered hill.",
+				"caption": "This slideshow image has a caption <em>too</em>, <s>without</s><strong>with</strong> HTML!"
+			},
+			{
+				"href": "https://aws.nbcommunication.com/template/img/placeholder-city.jpg",
+				"src": "https://aws.nbcommunication.com/template/img/placeholder-city.1200x675.jpg",
+				"width": "1200",
+				"height": "675"
+			}
+		]
+	}
+}
