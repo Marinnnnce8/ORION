@@ -28,9 +28,9 @@
 	<div>
 
 		<header class="header" data-uk-sticky="media: 960; animation: uk-animation-slide-top; show-on-up: true;">
-			<ul class="uk-flex uk-flex-middle uk-list uk-flex-right uk-margin-remove-bottom">
-				<li><a href="#">Media centre</a></li>
-				<li class="uk-margin-remove-top"><a href="#"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+			<ul class="uk-flex uk-flex-middle uk-list uk-flex-right uk-margin-remove-bottom uk-visible@m">
+				<li><a href="#" class="uk-text-bold uk-text-uppercase">Media centre</a></li>
+				<li class="uk-margin-remove-top uk-text-bold uk-text-uppercase"><a href="#"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
 				<li class="uk-margin-remove-top uk-flex uk-flex-center">
 					<button class="uk-flex uk-flex-center uk-flex-middle uk-position-relative" aria-label="Click to open search field">
 						{{> renderIcon name="search"}}
@@ -49,6 +49,11 @@
 					<div id="nav" class="uk-visible@m">
 						{{> renderNavigation items=menu active=page.name}}
 					</div>
+					<li class="uk-margin-remove-top uk-flex uk-flex-center uk-hidden@m">
+						<button class="uk-flex uk-flex-center uk-flex-middle uk-position-relative" aria-label="Click to open search field">
+							{{> renderIcon name="search"}}
+						</button>
+					</li>
 					<a href="#mmenu" class="uk-navbar-toggle uk-hidden@m" aria-label="Toggle Navigation">
 						<span data-uk-navbar-toggle-icon></span>
 						<span class="uk-hidden" data-uk-close></span>

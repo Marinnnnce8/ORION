@@ -4,10 +4,6 @@
 	<li class="{{#if children}}uk-parent{{/if}}{{#if (eq ../active name)}} uk-active{{/if}}">
 		<a href="{{default url "#"}}">
 			{{title}}
-			{{#if children}}
-			{{> renderIcon name="chevron-down" class="uk-visible@s"}}
-			{{> renderIcon name="chevron-right" class="uk-hidden@s"}}
-			{{/if}}
 		</a>
 		{{#if children}}
 		{{> renderNavigation items=children mobile=../mobile active=../active level=1}}
@@ -21,7 +17,12 @@
 
 <ul>
 	{{#>nav}}{{/nav}}
+	<li class="uk-flex uk-flex-middle uk-list uk-flex-right uk-margin-remove-bottom">
+		<div><a href="#" class="uk-text-bold uk-text-uppercase">Media centre</a></div>
+		<div class="uk-margin-remove-top uk-text-bold uk-text-uppercase"><a href="#"><abbr title="Frequently Asked Questions">FAQ</abbr></a></div>
+	</li>
 </ul>
+
 
 {{else}}
 
